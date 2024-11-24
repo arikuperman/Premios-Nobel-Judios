@@ -1,0 +1,111 @@
+*{
+	margin:0px;
+	padding:0px;
+	line-height:1;
+}
+body{
+	background-color:#756d8a;
+	font-family: Sans-Serif;
+	text-align:center;
+}
+#menu{
+	display:block;
+	margin-top:20px;
+	margin-bottom:20px;
+	color:#ffffff;
+}
+
+#menu a{
+	display:inline-block;
+	color:#ffffff;
+	box-sizing:border:box;
+	padding:4px 8px;
+	text-decoration:none;
+	font-weight:600;
+}
+.inicio{background-color:#292660;}
+.inicio:hover{background-color:2F2F75;}
+.economia{background-color:#32A357;}
+.economia:hover{background-color:#91CC9A}
+.fisica{background-color:#DF912E;}
+.fisica:hover{background-color:#FFA45D}
+.literatura{background-color:#C90087;}
+.literatura:hover{background:#FE9FBB;}
+.medicina{background-color:#CB2128;}
+.medicina:hover{background-color:#FF7156;}
+.paz{background-color:#00ABEB;}
+.paz:hover{background-color:#B4E7E4;}
+.quimica{background-color:#5A308C;}
+.quimica:hover{background-color:#9A9AC9;}
+
+#sombra{display:block;background-image:url(../imgs/sombra.png);background-repeat:repeat-y;width:1160px;margin:0px auto;min-height:100%;}
+header{
+	display:block;
+	width:1080px;
+	height:126px;
+	background-image:url(../imgs/top-principal.png);
+	background-repeat:no-repeat;
+	margin:0px auto;
+}
+header img{
+	display:block;
+	float:right;
+}
+#cuerpo {
+	display:block;
+	width:1080px;
+	margin:0px auto;
+	box-sizing:border-box;
+	text-align:left;
+	padding-bottom:65px;
+}
+#colL {
+	display:block;
+	width:560px;
+	float:left;
+	margin-left:25px;
+	margin-top:25px;
+}
+#colL img{
+	display:block;
+	width:505px;
+	margin:auto;
+	margin-top:20px;
+}
+#section{
+	display:block;
+	width:560px;
+	background-color:#ffffff;
+	font-size:12px;
+	box-sizing:border-box;
+	padding:8px;
+}
+#section p{
+	display:block;
+	margin-bottom:5px;
+	line-height:14px;
+	font-weight:500;
+	text-align : justify;
+}
+#colR{
+	display:block;
+	width:448px;
+	float:right;
+	margin-right:25px;
+	margin-top:25px;
+}
+#colR img{
+	display:inline;
+}
+#15p {
+	display:block;
+	width:100%;
+	height:15px;
+}
+#clear{
+	display:block;
+	width:0px;
+	height:0px;
+	clear:both;
+}
+.column{ padding: 5px;box-sizing:border-box; }
