@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="es" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META HTTP-EQUIV="Content-Language" Content="es">
+<title>Premios Nobel - Inicio</title>
+<link rel="stylesheet" href="css/estilo.css" />
+<link rel="stylesheet" href="css/colorbox.css" />
+<script src="scripts/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.corner.js" type="text/javascript"></script>
+<script src="scripts/jquery.columnizer.js" type="text/javascript"></script>
+<script src="scripts/jquery.colorbox-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#section').corner("round 8px");
+	$(".group1").colorbox({rel:'group1'});
+	$(".group2").colorbox({rel:'group2'});
+});
+$(function(){
+	$('#section').columnize({ columns: 2 });
+});
+
+</script>
+<style>
+#medalla {margin:80px auto;display:block;width:720px;}
+</style>
+</head>
+	
+<body>
+
+<div id="cuerpo">
+	<div id="medalla">
+		<img id="Image-Maps-Com-image-maps-2016-02-03-105637" src="imgs/medalla-nobel-1-01.png" border="0" width="693" height="685" orgWidth="693" orgHeight="685" usemap="#image-maps-2016-02-03-105637" alt="" />
+		<map name="image-maps-2016-02-03-105637" id="ImageMapsCom-image-maps-2016-02-03-105637">
+		<area  alt="" title="Quimica" href="rubros/nobel-quimica.html" shape="rect" coords="188,559,263,582" style="outline:none;" target="_self"     />
+		<area  alt="" title="Literatura" href="rubros/nobel-literatura.html" shape="rect" coords="312,559,413,582" style="outline:none;" target="_self"     />
+		<area  alt="" title="Economia" href="rubros/nobel-economia.html" shape="rect" coords="410,559,505,582" style="outline:none;" target="_self"     />		
+		<area  alt="" title="Inicio" href="home.html" shape="poly" coords="290,460,640,461,583,554,291,554" style="outline:none;" target="_self"  />
+		<area  alt="" title="Medicina" href="rubros/nobel-medicina.html" shape="poly" coords="93,560,115,581,189,580,189,559" style="outline:none;" target="_self"     />
+		<area  alt="" title="Paz" href="rubros/nobel-paz.html" shape="poly" coords="308,580,263,581,263,559,310,560" style="outline:none;" target="_self"     />
+		<area  alt="" title="Fisica" href="rubros/nobel-fisica.html" shape="poly" coords="578,560,557,581,505,581,504,558" style="outline:none;" target="_self"     />
+		</map>
+<br><br><small style="text-align:center;color:#fff;display:block;margin:auto;">Hacer click sobre el rubro deseado.</small>
+	</div>
+<div id="clear"></div>
+</div>
+</body>
+</html>
